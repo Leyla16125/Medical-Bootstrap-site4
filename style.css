@@ -1,0 +1,27 @@
+:root { --blue: #6bc2f1 }
+
+header{ background: url('img/headerbg.jpg') 60% 50%/cover;}
+
+.txtblue{ color: var(--blue) }
+.bgblue { background-color: var(--blue) }
+.bggray { background-color: #f1f1f1 }
+.bgbblue{background-color: #072035;}
+.txtwhite{color: white;}
+
+.min-vh-50 { min-height: 50vh }
+
+#f1 { background: url('img/f1.jpg') center/cover }
+#f2 { background: url('img/f2.jpg') center/cover }
+#f1:hover, #f2:hover { opacity: .5 }
+#f1:hover a, #f2:hover a { display: initial!important }
+
+.list-group li{
+    color: white;
+    background-color: transparent;
+}
+.bx-sizing {box-sizing: border-box!important;}
+.carousel-indicators img {
+    width: 45px!important;
+    height: 45px!important;
+    margin: 0 5px!important;
+}
